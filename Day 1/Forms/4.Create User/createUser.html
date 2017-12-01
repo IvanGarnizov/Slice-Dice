@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Create User</title>
+  </head>
+  <body>
+    <h1>Create new user</h1>
+    <form method="post">
+      <label>Username: </label>
+      <input type="text" required />
+      <br />
+      <label>Password: </label>
+      <input type="password" required />
+      <h2>Upload a photo</h2>
+      <input type="file" />
+      <h2>Teams</h2>
+      Team 1 <input type="checkbox" name="team" />
+      <br />
+      Team 2 <input type="checkbox" name="team" />
+      <br />
+      Team 3 <input type="checkbox" name="team" />
+      <h2>Position</h2>
+      Position1 <input type="radio" name="position" />
+      <br />
+      Position2 <input type="radio" name="position" />
+      <br />
+      Position3 <input type="radio" name="position" />
+      <h2>Role</h2>
+      <select size="3">
+        <option>Admin</option>
+        <option>Moderator</option>
+        <option>User</option>
+      </select>
+      <br />
+      <input type="submit" value="Create!" />
+  </body>
+</html>
